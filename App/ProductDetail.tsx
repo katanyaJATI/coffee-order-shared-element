@@ -29,18 +29,21 @@ function ProductDetailScreen({navigation}: ProductDetailProps) {
   const mountCombo = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
-    animStart(mountSize, 600);
-    animStart(mountCombo, 750);
+    Animated.parallel([
+      Animated.timing(mountSize, {
+        toValue: 1,
+        duration: 400,
+        useNativeDriver: true,
+        delay: 600,
+      }),
+      Animated.timing(mountCombo, {
+        toValue: 1,
+        duration: 400,
+        useNativeDriver: true,
+        delay: 750,
+      }),
+    ]).start();
   }, [mountCombo, mountSize]);
-
-  const animStart = (state: any, delay: any) => {
-    Animated.timing(state, {
-      toValue: 1,
-      duration: 400,
-      useNativeDriver: true,
-      delay,
-    }).start();
-  };
 
   const animSize = {
     opacity: mountSize,
