@@ -19,7 +19,7 @@ function ProductsScreen({navigation}: ProductsProps) {
 
       <View style={styles.titleWrapper}>
         <SharedElement id="item.title">
-          <Text style={styles.titleText}>Caramet Macchiato</Text>
+          <Text style={styles.titleText}>Caramel Macchiato</Text>
         </SharedElement>
         <Text style={styles.subTitleText}>
           Naise Coffee can change The atmosphere in the morning
