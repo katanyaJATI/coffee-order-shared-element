@@ -11,7 +11,11 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		221ED4A0961549AF941C97AC /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 169786A01FB14BB39D917FA3 /* Poppins-Regular.ttf */; };
+		28EC449C853848B084BC6CDB /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B078D2D0F4D4A94A64B00CB /* Poppins-ExtraBold.ttf */; };
+		52D83289C5924E048983628E /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18BF77505AD748D7BBB28565 /* Poppins-SemiBold.ttf */; };
 		6172F2D35A4C3AA820D92908 /* libPods-CoffeeOrder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6423831EA8574132BED9D8CC /* libPods-CoffeeOrder.a */; };
+		65D67DD9E8ED4126B99D7197 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4519EC34CD574911B49E7520 /* Poppins-Bold.ttf */; };
 		7EF68E3733C33B6898317E18 /* libPods-CoffeeOrder-CoffeeOrderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFE59519B596E51CEFDCCC0 /* libPods-CoffeeOrder-CoffeeOrderTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -36,8 +40,12 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CoffeeOrder/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CoffeeOrder/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CoffeeOrder/main.m; sourceTree = "<group>"; };
+		169786A01FB14BB39D917FA3 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		18BF77505AD748D7BBB28565 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		1D0AE47A65C8663E3B452821 /* Pods-CoffeeOrder-CoffeeOrderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeOrder-CoffeeOrderTests.release.xcconfig"; path = "Target Support Files/Pods-CoffeeOrder-CoffeeOrderTests/Pods-CoffeeOrder-CoffeeOrderTests.release.xcconfig"; sourceTree = "<group>"; };
+		4519EC34CD574911B49E7520 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		6423831EA8574132BED9D8CC /* libPods-CoffeeOrder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoffeeOrder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B078D2D0F4D4A94A64B00CB /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBold.ttf"; path = "../assets/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
 		6C97AB639B58BBB4B15BBE30 /* Pods-CoffeeOrder-CoffeeOrderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeOrder-CoffeeOrderTests.debug.xcconfig"; path = "Target Support Files/Pods-CoffeeOrder-CoffeeOrderTests/Pods-CoffeeOrder-CoffeeOrderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CoffeeOrder/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABFE59519B596E51CEFDCCC0 /* libPods-CoffeeOrder-CoffeeOrderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoffeeOrder-CoffeeOrderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +130,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				E233CBF5F47BEE60B243DCF8 /* Pods */,
+				88DD787722B94C63A5EDEFC6 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -135,6 +144,18 @@
 				00E356EE1AD99517003FC87E /* CoffeeOrderTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		88DD787722B94C63A5EDEFC6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4519EC34CD574911B49E7520 /* Poppins-Bold.ttf */,
+				6B078D2D0F4D4A94A64B00CB /* Poppins-ExtraBold.ttf */,
+				169786A01FB14BB39D917FA3 /* Poppins-Regular.ttf */,
+				18BF77505AD748D7BBB28565 /* Poppins-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		E233CBF5F47BEE60B243DCF8 /* Pods */ = {
@@ -244,6 +265,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				65D67DD9E8ED4126B99D7197 /* Poppins-Bold.ttf in Resources */,
+				28EC449C853848B084BC6CDB /* Poppins-ExtraBold.ttf in Resources */,
+				221ED4A0961549AF941C97AC /* Poppins-Regular.ttf in Resources */,
+				52D83289C5924E048983628E /* Poppins-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
